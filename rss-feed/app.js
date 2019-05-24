@@ -2,6 +2,7 @@ const express = require('express');
 const Parser = require('rss-parser');
 const PORT = process.env.PORT || 4422;
 
+// feeds list
 const feeds = [
     'https://sys-adm.in/?format=feed&type=rss',
     'https://forum.sys-adm.in/index.php?action=.xml;type=rss'

@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.0",
     "feedsub": "^0.7.1",
+    "lodash": "^4.17.11",
     "rss-feed-emitter": "^2.0.1",
     "rss-parser": "^3.7.0"
   }

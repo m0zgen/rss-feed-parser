@@ -1,0 +1,26 @@
+{
+  "name": "rss-node-feeder",
+  "version": "1.0.0",
+  "description": "RSS feed parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yevgeniy Goncharov, https://sys-adm.in",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m0zgen/rss-feed-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m0zgen/rss-feed-parser/issues"
+  },
+  "homepage": "https://github.com/m0zgen/rss-feed-parser#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "feedsub": "^0.7.1",
+    "rss-feed-emitter": "^2.0.1",
+    "rss-parser": "^3.7.0"
+  }
+}
